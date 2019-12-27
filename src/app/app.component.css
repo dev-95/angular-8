@@ -1,0 +1,7 @@
+button{
+    margin: 24px 12px;
+}
+button:last-child{
+    color: #039BE5;
+    border: 1px solid #039BE5;
+}
