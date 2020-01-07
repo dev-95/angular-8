@@ -1,7 +1,13 @@
-button{
-    margin: 24px 12px;
+.content{
+    width: 100%;
+    text-align: center;
 }
-button:last-child{
-    color: #039BE5;
-    border: 1px solid #039BE5;
+.parent{
+    background: #2d3436;
+    color: white;
+    padding: 24px;     
+}
+.child{
+    width: 80%;
+    margin: 0 auto;
 }
