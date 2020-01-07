@@ -1,7 +1,9 @@
 <div class="add-server">
-    <label>Server Name</label><br>
-    <mat-form-field>
+    <!-- <mat-form-field>
         <input matInput placeholder="Server name here" value="" type="text" (input)="onUpdateServerName($event)">
+    </mat-form-field><br> -->
+    <mat-form-field>
+        <input matInput placeholder="Server name here" value="" type="text" [(ngModel)]="serverName">
     </mat-form-field>
     <div class="new-name-server">{{serverName}}</div>
 </div>
