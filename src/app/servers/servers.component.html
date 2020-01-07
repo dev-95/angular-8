@@ -1,3 +1,10 @@
+<div class="add-server">
+    <label>Server Name</label><br>
+    <mat-form-field>
+        <input matInput placeholder="Server name here" value="" type="text" (input)="onUpdateServerName($event)">
+    </mat-form-field>
+    <div class="new-name-server">{{serverName}}</div>
+</div>
 <button mat-raised-button [disabled]="allowNewServer" (click)="onCreateServer()">Add Server</button>
 <!-- <p [innerText]="!allowNewServer"></p> -->
 <p>{{serverCreationStatus}}</p>

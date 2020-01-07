@@ -7,6 +7,9 @@ import {MatButtonModule} from '@angular/material/button';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,9 @@ import { ServersComponent } from './servers/servers.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

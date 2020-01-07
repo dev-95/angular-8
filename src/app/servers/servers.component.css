@@ -1,5 +1,10 @@
-button{
+.add-server{
     margin-top: 12px;
+}
+.new-name-server{
+    margin-bottom: 12px;
+}
+button{
     background: #039be5;
     color: white;
 }
